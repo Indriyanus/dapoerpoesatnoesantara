@@ -109,7 +109,7 @@ const Navbar = () => {
           >
             EN
           </p>
-          <span className="mx-2 text-white">|</span>
+          <span className="mx-2 text-black">|</span>
           <p
             className={`font-bold text-xs md:text-md cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-in-out ${language === 'ID' ? 'text-blue-500' : 'text-black'}`}
             onClick={() => switchLanguage('ID')}
