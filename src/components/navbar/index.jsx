@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <section id='jumbotronNavbar' className="flex flex-col md:flex-row justify-between items-center py-2 px-5 md:px-10 rounded-none shadow-md bg-black bg-opacity-20 fixed top-0 w-full z-10 backdrop-blur-sm">
+    <section id='jumbotronNavbar' className="flex flex-col md:flex-row justify-between items-center py-2 px-5 md:px-10 rounded-none shadow-md bg-transparent fixed top-0 w-full z-10 backdrop-blur-sm">
       <div id='sisiKiri' className="flex flex-1 justify-start items-center">
         <Image
           src="/images/logodpnkedua.png"
@@ -38,45 +38,45 @@ const Navbar = () => {
       </div>
 
       <div id='sisiTengah' className={`md:flex ${isServiceMenuOpen ? 'block' : 'hidden'} w-full md:w-auto`}>
-        <nav className="flex md:flex-row gap-4 md:gap-10 mt-4 md:mt-0">
+        <nav className="flex flex-col md:flex-row gap-4 md:gap-10 mt-4 md:mt-0">
           <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out">
-            <a href="./homepage" className="font-bold text-xs md:text-xxs text-white bg-black rounded-full py-1 px-3" style={{ textDecoration: 'none' }}>
+            <a href="./homepage" className="font-bold text-xs md:text-xxs text-white bg-transparent rounded-full py-1 px-3" style={{ textDecoration: 'none', color: 'inherit' }}>
               {language === 'EN' ? 'HOME' : 'BERANDA'}
             </a>
           </div>
           <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out">
-            <a href="./aboutus" className="font-bold text-xs md:text-xxs text-white bg-black  rounded-full py-1 px-3" style={{ textDecoration: 'none' }}>
+            <a href="./aboutus" className="font-bold text-xs md:text-xxs text-white bg-transparent rounded-full py-1 px-3" style={{ textDecoration: 'none', color: 'inherit' }}>
               {language === 'EN' ? 'ABOUT US' : 'TENTANG KAMI'}
             </a>
           </div>
           <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out">
-            <a href="./product/" className="font-bold text-xs md:text-xxs text-white bg-black  rounded-full py-1 px-3" style={{ textDecoration: 'none' }}>
+            <a href="./product/" className="font-bold text-xs md:text-xxs text-white bg-transparent rounded-full py-1 px-3" style={{ textDecoration: 'none', color: 'inherit' }}>
               {language === 'EN' ? 'PRODUCT' : 'PRODUK'}
             </a>
           </div>
           <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out">
-            <a href="./contact/" className="font-bold text-xs md:text-xxs text-white bg-black rounded-full py-1 px-3" style={{ textDecoration: 'none' }}>
+            <a href="./contact/" className="font-bold text-xs md:text-xxs text-white bg-transparent rounded-full py-1 px-3" style={{ textDecoration: 'none', color: 'inherit' }}>
               {language === 'EN' ? 'CONTACT' : 'KONTAK'}
             </a>
           </div>
           <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out">
-            <a href="./teams/" className="font-bold text-xs md:text-xxs text-white bg-black rounded-full py-1 px-3" style={{ textDecoration: 'none' }}>
+            <a href="./teams/" className="font-bold text-xs md:text-xxs text-white bg-transparent rounded-full py-1 px-3" style={{ textDecoration: 'none', color: 'inherit' }}>
               {language === 'EN' ? 'TEAMS' : 'TIM'}
             </a>
           </div>
           <div className="relative">
             <div
-              className="flex items-center cursor-pointer transform hover:scale-150 transition-transform duration-300 ease-in-out font-bold text-xs md:text-xxs text-white bg-black rounded-full py-1 px-3"
+              className="flex items-center cursor-pointer transform hover:scale-150 transition-transform duration-300 ease-in-out font-bold text-xs md:text-xxs text-black bg-transparent rounded-full py-1 px-3"
               onClick={toggleServiceMenu}
-              aria-haspopup="true"
-              aria-expanded={isServiceMenuOpen}
+              aria-haspopup="menu"
+              aria-expanded={isServiceMenuOpen ? 'true' : 'false'}
               aria-label="Services menu"
             >
               <span>{language === 'EN' ? 'SERVICES' : 'LAYANAN'}</span>
               <MdArrowDropDown className="ml-1" />
             </div>
             {isServiceMenuOpen && (
-              <div className="absolute bg-black text-white rounded-lg mt-2 py-2 w-40 md:w-80 shadow-lg" role="menu">
+              <div className="absolute bg-transparent text-black rounded-lg mt-2 py-2 w-40 md:w-80 shadow-lg" role="menu">
                 <ul>
                   <li className="px-4 py-2 hover:bg-black-700" role="menuitem">
                     <a href="./dapoertelekomunikasi/">Dapoer Telekomunikasi</a>
