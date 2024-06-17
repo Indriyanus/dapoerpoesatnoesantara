@@ -16,7 +16,7 @@ export default function AboutUs () {
 </section>
 <section className='flex items-center py-5 px-10'>
     <div className='flex-1 flex justify-center item-center'>
-        <Image src='/images/direktur.webp' alt="Direktur" width={500} height={500} className='w-1/2 h-auto' />
+        <Image src='/images/direktur1.webp' alt="Direktur" width={500} height={500} className='w-1/2 h-auto' />
     </div>
     <div className='flex-1 flex-col'>
         <div>
