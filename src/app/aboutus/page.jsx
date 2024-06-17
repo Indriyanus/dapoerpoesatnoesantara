@@ -16,7 +16,7 @@ export default function AboutUs () {
 </section>
 <section className='flex items-center py-5 px-10'>
     <div className='flex-1 flex justify-center item-center'>
-        <Image src='/images/direktur1.webp' alt="Direktur" width={500} height={500} className='w-1/2 h-auto' />
+        <Image src='/images/direktur1.webp' alt="Direktur" width={500} height={500} className='w-1/2 h-auto' loading="lazy" />
     </div>
     <div className='flex-1 flex-col'>
         <div>
@@ -27,47 +27,33 @@ export default function AboutUs () {
         <br />
         <br />
         <div className='text-justify text-lg text-sm'>
-        <div>
             <p>
             Dapoer Poesat Noesantara adalah Perusahaan yang bergerak di bidang Telekomunikasi, Informasi dan Komunikasi, Pengembangan Web, Bahan Kimia, dan perdagangan HALAL, kuliner yang didistribusikan secara offline maupun online di pasar Nasional. Sudah 2 tahun PT. Dapoer Poesat Noesantara memberikan dan memenuhi kebutuhan konsumen baik itu jasa dan juga produk terbaik di seluruh wilayah Indonesia. 
             </p>
-        </div>
-        <br />
-        <div>
+            <br />
             <p>
             Pencapaian PT. Dapoer Poesat Noesantara hingga saat ini tidak terlepas dari dukungan para pemegang saham, distributor/mitra bisnis, kepercayaan konsumen dan pemangku kepentingan lainnya serta kerja keras dari seluruh jajaran PT. Dapoer Poesat Noesantara. Pada kesempatan ini Direktur Utama menyampaikan penghargaan dan ucapan terima kasih atas dukungan dan kerjasama yang baik dari jajaran Direksi dan karyawan/karyawati serta pemangku kepentingan lainnya. Diharapkan dukungan dan kerjasama yang telah terbina dengan baik selama ini dapat terus dipelihara dan ditingkatkan guna menghadapi tantangan di tahun selanjutnya dan untuk lebih memantapkan sasaran yang ingin dicapai PT. Dapoer Poesat Noesantara.
             </p>
-        </div>
-        <br />
-        <div>
+            <br />
            <p>
            Mari terus kita tingkatkan produktivitas dan efektivitas kinerja, dengan terus meningkatkan kompetensi diri di tengah-tengah menghadapi tantangan global. Saya selaku Direktur Utama PT. Dapoer Poesat Noesantara mengajak seluruh manajemen, mulai dari Direksi, Group Head, Departement head, hingga Unit head untuk dapat memimpin dan menjadi role model serta bimbingan nya kepada seluruh timnya, untuk dapat terus meningkatkan produktifitas guna mencapai kinerja perusahaan yang optimal
            </p>
-        </div>
-        <br />
-        <div>
+            <br />
             <p>
             Semoga kinerja baik ini dapat dipertahankan dan terus meningkat di masa mendatang.
             </p>
-        </div>
-        <br />
-        <div>
+            <br />
             <p>
             Tangerang, 04 April 2024
             </p>
-        </div>
-        <br />
-        <div>
+            <br />
             <p>
             Indriyanus
             </p>
-        </div>
-        <br />
-        <div>
+            <br />
             <p>
             Direktur Utama
             </p>
-        </div>
         </div>
     </div>
 </section>
@@ -182,19 +168,19 @@ export default function AboutUs () {
     </div>
     <section className='flex justify-between py-5 px-10 gap-5 '>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <Image src="/images/portofolioapart.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofolioapart.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg' loading="lazy"/>
             <p className='text-center text-sm py-5'>
             MANAJEMEN JARINGAN INTERNET SKYLAND CITY JATINANGOR - 2023   
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <Image src="/images/portofoliopanindua.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofoliopanindua.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg' loading="lazy"/>
             <p className='text-center text-sm py-5'>
             INSTALASI KABEL FO BANK PANIN - 2024
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <Image src="/images/portofolioindex.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofolioindex.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg' loading="lazy"/>
             <p className='text-center text-sm py-5'>
             INSTALASI KABEL FO BANK INDEX - 2024
             </p>
@@ -202,19 +188,19 @@ export default function AboutUs () {
     </section>
     <section className='flex justify-between py-5 px-10 gap-5'>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <Image src="/images/rge.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/rge.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg' loading="lazy"/>
             <p className='text-center text-sm py-5'>
             INSTALASI SAMBUNGAN SILANG (LAN) RGE GROUP - 2024  
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <Image src="/images/portofoliopanin.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofoliopanin.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg' loading="lazy"/>
             <p className='text-center text-sm py-5'>
             INSTALASI JARINGAN LOCAL AREA NETWORK PT. PROTONINDO CITRA - 2024
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <Image src="/images/RS.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/RS.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg' loading="lazy"/>
             <p className='text-center text-sm py-5'>
             INSTALASI PABX RS DUSTIRA ANGKATAN DARAT CIMAHI - 2023
             </p>
@@ -229,34 +215,34 @@ export default function AboutUs () {
 <section id='our clients' className='flex flex-center justify-center px-10 item-center'>
     <section id='logo' className='flex flex-wrap justify-center items-center'>
         <div className='flex-1 flex justify-center items-center'>
-            <Image src="/images/logobankiindex.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logobankiindex.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logobankpanin.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logobankpanin.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logobri.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logobri.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logojco.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logojco.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logoprotoindo.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logoprotoindo.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logorge.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logorge.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logoskyland.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logoskyland.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logosriwijayaair.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logosriwijayaair.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logoudistira.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logoudistira.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <Image src="/images/logotelkomakses.webp" alt="Client Logo" width={300} height={60}/>
+            <Image src="/images/logotelkomakses.webp" alt="Client Logo" width={300} height={60} loading="lazy"/>
         </div>
     </section>
 </section>
