@@ -9,9 +9,7 @@ const ClientCarousel = dynamic(() => import('../../components/carousel/index'), 
 export default function Contact() {
     return (
         <>
-            <ClientCarousel />
-
-            <section>
+            <section className='mt-14'>
                 <div>
                     <p className='py-2 px-5 flex justify-center text-2xl md:text-4xl font-bold'>
                         CONTACT

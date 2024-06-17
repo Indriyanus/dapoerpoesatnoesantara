@@ -7,8 +7,7 @@ const ClientCarousel = dynamic(() => import('../../components/carousel/index'), 
 export default function Product() {
     return (
         <>
-            <ClientCarousel id="jumbotronLogo" />
-            <section className='relative'>
+            <section className='relative mt-14'>
             </section>
             <section>
                 <section>

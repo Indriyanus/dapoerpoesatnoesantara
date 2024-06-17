@@ -60,8 +60,7 @@ export default function Teams() {
   );
 
   return (
-    <div>
-      <ClientCarousel id="jumbotronLogo" />
+    <div className='mt-14'> 
       <h1 className="text-3xl font-bold text-center mb-8 py-10">Structure Organizational</h1>
       
       <div id="posisi atas satu" className="flex justify-center mb-10 text-center">

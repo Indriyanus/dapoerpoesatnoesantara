@@ -10,10 +10,8 @@ const ProductCarousel = dynamic(() => import('../../components/carouselproduct/i
 export default function Pages() {
     return (
         <>
-            <ClientCarousel id="jumbotronLogo" />
-
-            <section id="jumbotron2" className="text-justify">
-                <section className="bg-black bg-opacity-20 rounded-lg shadow-md">
+            <section id="jumbotron2" className="text-justify mt-14">
+                <section className="bg-black bg-opacity-20 shadow-md">
                     <div id='jumbotron1' className="flex flex-col justify-between items-center py-10 px-5 md:px-10">
                         <p className="text-4xl font-bold text-black text-center ">
                             About Us
