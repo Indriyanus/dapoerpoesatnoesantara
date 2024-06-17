@@ -1,13 +1,13 @@
 'use client';
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 
-const ClientCarousel = dynamic(() => import('../../components/carousel/index'), {ssr:false});
+const ClientCarousel = dynamic(() => import('../../components/carousel/index'), { ssr: false });
 
-export default function Product () {
+export default function Product() {
     return (
         <>
-        <ClientCarousel id="jumbotronLogo"/>
+            <ClientCarousel id="jumbotronLogo" />
             <section className='relative'>
             </section>
             <section>
@@ -21,7 +21,7 @@ export default function Product () {
                 <section className='container mx-auto p-4'>
                     <div className='flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center mb-10'>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/opticalpower.png" alt="Optical Power" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/opticalpower.webp" alt="Optical Power" width={150} height={180} className='mx-auto' />
                         </div>
                         <div className='flex-1 text-center'>
                             <p className='font-bold text-lg md:text-xl'>Optical Power</p>
@@ -39,13 +39,13 @@ export default function Product () {
                             </p>
                         </div>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/vlc.png" alt="VLC" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/vlc.webp" alt="VLC" width={150} height={180} className='mx-auto' />
                         </div>
                     </div>
                     <hr className="border-t border-white-400 my-4" />
                     <div className='flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center mb-10'>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/otdr.png" alt="OTDR" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/otdr.webp" alt="OTDR" width={150} height={180} className='mx-auto' />
                         </div>
                         <div className='flex-1 text-center'>
                             <p className='font-bold text-lg md:text-xl'>OTDR</p>
@@ -63,13 +63,13 @@ export default function Product () {
                             </p>
                         </div>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/splitter.png" alt="Splitter" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/splitter.webp" alt="Splitter" width={150} height={180} className='mx-auto' />
                         </div>
                     </div>
                     <hr className="border-t border-white-400 my-4" />
                     <div className='flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center mb-10'>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/splitterratio.jpg" alt="Splitter Ratio" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/splitterratio.webp" alt="Splitter Ratio" width={150} height={180} className='mx-auto' />
                         </div>
                         <div className='flex-1 text-center'>
                             <p className='font-bold text-lg md:text-xl'>Splitter Ratio</p>
@@ -87,13 +87,13 @@ export default function Product () {
                             </p>
                         </div>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/odpsolid.jpg" alt="ODP Solid" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/odpsolid.webp" alt="ODP Solid" width={150} height={180} className='mx-auto' />
                         </div>
                     </div>
                     <hr className="border-t border-white-400 my-4" />
                     <div className='flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center mb-10'>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/rosetprexo.jpg" alt="Roset Prexo" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/rosetprexo.webp" alt="Roset Prexo" width={150} height={180} className='mx-auto' />
                         </div>
                         <div className='flex-1 text-center'>
                             <p className='font-bold text-lg md:text-xl'>Roset Prexo</p>
@@ -111,13 +111,13 @@ export default function Product () {
                             </p>
                         </div>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/rosetotp.jpg" alt="Roset OTP" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/rosetotp.webp" alt="Roset OTP" width={150} height={180} className='mx-auto' />
                         </div>
                     </div>
                     <hr className="border-t border-white-400 my-4" />
                     <div className='flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-center mb-10'>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/patchcore.jpg" alt="Patchcore" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/patchcore.webp" alt="Patchcore" width={150} height={180} className='mx-auto' />
                         </div>
                         <div className='flex-1 text-center'>
                             <p className='font-bold text-lg md:text-xl'>Patchcore</p>
@@ -135,7 +135,7 @@ export default function Product () {
                             </p>
                         </div>
                         <div className='flex-1 text-center transform hover:scale-150 transition-transform duration-300'>
-                            <img src="/images/kabelutp.jpg" alt="Kabel UTP" className='mx-auto w-25 h-30 md:w-35 md:h-32' />
+                            <Image src="/images/kabelutp.webp" alt="Kabel UTP" width={150} height={180} className='mx-auto' />
                         </div>
                     </div>
                 </section>

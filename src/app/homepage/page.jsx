@@ -1,16 +1,13 @@
 'use client';
-
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Image from 'next/image';
-import Link from 'next/link';
-import { GiStairsGoal } from "react-icons/gi";
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import { GiStairsGoal } from "react-icons/gi";
 import TeamsCarousel from "../../components/carouselteams";
 
-const ClientCarousel = dynamic(() => import('../../components/carousel/index'), {ssr:false});
-const ProductCarousel = dynamic(() => import('../../components/carouselproduct/index'), {ssr:false});
+const ClientCarousel = dynamic(() => import('../../components/carousel/index'), { ssr: false });
+const ProductCarousel = dynamic(() => import('../../components/carouselproduct/index'), { ssr: false });
 
-export default function Pages (){
+export default function Pages() {
     return (
         <>
             <ClientCarousel id="jumbotronLogo" />
@@ -44,10 +41,10 @@ export default function Pages (){
             <section id="jumbotronVisiMisidanGoals" className="flex flex-col md:flex-row gap-10 justify-between items-center py-5 px-5 md:px-10">
                 <section id="bagianVisi" className="flex-1">
                     <div id='card1' className="bg-white rounded-lg shadow-md p-5 md:p-10">
-                        <div style={{ width: '100%', height: '200px', md: '276px' }}>
-                            <Image src="/images/visionn.jpg" alt="" width={300} height={200} className="w-full h-full object-cover rounded-lg" />
+                        <div className="relative w-full h-56 md:h-72">
+                            <Image src="/images/visionn.webp" alt="Vision" layout="fill" objectFit="cover" className="rounded-lg" />
                         </div>
-                        <p className='text-justify py-5 md:py-20'>
+                        <p className='text-justify py-5 md:py-10'>
                             Memberikan pelayanan terbaik, menjalin kemitraan dengan Penyedia ISP, mendukung pengembangan, prioritaskan keselamatan, mengembangkan dan memajukan Infrastruktur Telekomunikasi di Indonesia.
                         </p>
                         <div>
@@ -61,13 +58,12 @@ export default function Pages (){
                 </section>
                 <section id="bagianGoals" className="flex-1">
                     <div id='card1' className="bg-white rounded-lg shadow-md p-5 md:p-10">
-                        <div style={{ width: '100%', height: '200px', md: '276px' }}>
-                            <Image src="/images/goal.jpg" alt="" width={300} height={200} className="w-full h-full object-cover rounded-lg" />
+                        <div className="relative w-full h-56 md:h-72">
+                            <Image src="/images/goal.webp" alt="Goals" layout="fill" objectFit="cover" className="rounded-lg" />
                         </div>
-                        <p className='text-justify py-5 md:py-20'>
-                            Memberikan pelayanan terbaik, menjalin kemitraan dengan Penyedia ISP, mendukung pengembangan, prioritaskan keselamatan, mengembangkan dan memajukan Infrastruktur Telekomunikasi di Indonesia.
+                        <p className='text-justify py-5 md:py-10'>
+                            Mampu menyediakan kualitas jaringan untuk tujuan operasional klien. Meningkatkan potensi perusahaan untuk mendapatkan peluang usaha yang menjamin masa depan perusahaan melalui sinergi internal dan eksternal.
                         </p>
-                        <br />
                         <div>
                             <button className="transform hover:scale-105 transition-transform duration-300 ease-in-out bg-black bg-opacity-20 text-black border-none w-full h-10 flex items-center justify-center rounded-full shadow-md">
                                 <p className="text-xl text-center font-bold">
@@ -79,10 +75,10 @@ export default function Pages (){
                 </section>
                 <section id="bagianMisi" className="flex-1">
                     <div id='card1' className="bg-white rounded-lg shadow-md p-5 md:p-10">
-                        <div style={{ width: '100%', height: '200px', md: '276px' }}>
-                            <Image src="/images/goalsss.jpg" alt="" width={300} height={200} className="w-full h-full object-cover rounded-lg" />
+                        <div className="relative w-full h-56 md:h-72">
+                            <Image src="/images/goalsss.webp" alt="Mission" layout="fill" objectFit="cover" className="rounded-lg" />
                         </div>
-                        <p className='text-justify py-5 md:py-20'>
+                        <p className='text-justify py-5 md:py-10'>
                             Menjadi group perusahaan Telekomunikasi baik jasa maupun supplier yang terkemuka untuk bidang Instalasi, Pengujian, Kelayakan (Commissioning) dan Pekerjaan Sarana Penunjang Telekomunikasi lainnya.
                         </p>
                         <div>
@@ -116,7 +112,7 @@ export default function Pages (){
                             <div className='flex flex-col gap-10 md:gap-20'>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/avatar.png"
+                                        src="/images/avatar.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -133,7 +129,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/2.png"
+                                        src="/images/2.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -150,7 +146,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/3.png"
+                                        src="/images/3.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -167,7 +163,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/4.png"
+                                        src="/images/4.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -201,7 +197,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/6.png"
+                                        src="/images/6.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -218,7 +214,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/7.png"
+                                        src="/images/7.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -235,7 +231,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/8.png"
+                                        src="/images/8.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -252,7 +248,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/9.png"
+                                        src="/images/9.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -269,7 +265,7 @@ export default function Pages (){
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
                                     <Image
-                                        src="/images/10.png"
+                                        src="/images/10.webp"
                                         alt="User Avatar"
                                         width={80}
                                         height={80}
@@ -473,6 +469,11 @@ export default function Pages (){
                                     </div>
                                 </div>
                                 <div className='flex flex-row justify-between item-center gap-10'>
+                                    <div className='flex-1 justify-center py-10'>
+                                    </div>
+                                    <div className="flex justify-center">
+                                        <div className="w-1 bg-gray-800 h-full"></div>
+                                    </div>
                                     <div className='flex-1 justify-center py-10'>
                                         <p className='text-center font-bold text-md'>
                                             PT DAPOER POESAT NOESANTARA GROUP

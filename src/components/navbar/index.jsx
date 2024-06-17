@@ -1,11 +1,13 @@
-"use client"
+"use client";
 
 import React, { useState } from 'react';
 import { AiOutlineUser } from "react-icons/ai";
 import { MdArrowDropDown } from 'react-icons/md';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import './style.css';
 
-export default function Navbar() {
+const Navbar = () => {
   const [isServiceMenuOpen, setIsServiceMenuOpen] = useState(false);
   const [language, setLanguage] = useState('EN');
 
@@ -20,10 +22,12 @@ export default function Navbar() {
   return (
     <section id='jumbotronNavbar' className="flex flex-col md:flex-row justify-between items-center py-2 px-5 md:px-10 rounded-none shadow-md bg-black bg-opacity-20 fixed top-0 w-full z-10 backdrop-blur-sm">
       <div id='sisiKiri' className="flex flex-1 justify-start items-center">
-        <img
+        <Image
           src="/images/logodpnkedua.png"
           alt="Logo"
-          className="w-10 h-10 md:w-10 md:h-10"
+          width={40}
+          height={40}
+          priority
         />
         <button className="md:hidden text-white focus:outline-none ml-2" onClick={() => setIsServiceMenuOpen(!isServiceMenuOpen)}>
           <MdArrowDropDown className="h-6 w-6" />
@@ -100,4 +104,6 @@ export default function Navbar() {
       </div>
     </section>
   );
-}
+};
+
+export default Navbar;

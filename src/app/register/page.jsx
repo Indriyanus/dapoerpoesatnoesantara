@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import { ImOffice } from "react-icons/im";
 import { AiOutlineUser } from "react-icons/ai";
@@ -6,7 +7,7 @@ import { RiLockPasswordFill } from "react-icons/ri";
 export default function Register() {
     return (
         <>
-            <section id='background' className='flex items-center justify-center h-screen bg-cover bg-center mt-14' style={{ backgroundImage: "url('/images/mockup.png')" }}>
+            <section id='background' className='flex items-center justify-center h-screen bg-cover bg-center mt-14' style={{ backgroundImage: "url('/images/mockup.webp')" }}>
                 <section className='bg-white bg-opacity-20 backdrop-blur-sm p-6 sm:p-8 rounded-lg shadow-lg w-full max-w-md md:max-w-2xl'>
                     <p className='text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-black text-center'>
                         Register
@@ -36,7 +37,7 @@ export default function Register() {
                         <div id='Password' className='flex items-center gap-3 sm:gap-5 mt-3'>
                             <RiLockPasswordFill className='text-center text-black' />
                             <input type="password"
-                                id='password'
+                                id='password-confirm'
                                 className='w-full p-2 sm:p-3 rounded-lg bg-white bg-opacity-10 backdrop-blur-sm text-black focus:outline-none focus:ring-2 focus:ring-gray-500 placeholder-white'
                                 placeholder='Masukan Ulang Password' />
                         </div>
@@ -53,5 +54,5 @@ export default function Register() {
                 </section>
             </section>
         </>
-    )
+    );
 }

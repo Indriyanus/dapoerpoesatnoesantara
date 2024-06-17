@@ -16,7 +16,7 @@ export default function AboutUs () {
 </section>
 <section className='flex items-center py-5 px-10'>
     <div className='flex-1 flex justify-center item-center'>
-        <img src='/images/direktur.png' alt="" className='w-1/2 h-auto' />
+        <Image src='/images/direktur.webp' alt="Direktur" width={500} height={500} className='w-1/2 h-auto' />
     </div>
     <div className='flex-1 flex-col'>
         <div>
@@ -182,19 +182,19 @@ export default function AboutUs () {
     </div>
     <section className='flex justify-between py-5 px-10 gap-5 '>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <img src="/images/portofolioapart.jpeg" alt="" className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofolioapart.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
             <p className='text-center text-sm py-5'>
             MANAJEMEN JARINGAN INTERNET SKYLAND CITY JATINANGOR - 2023   
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <img src="/images/portofoliopanindua.jpeg" alt="" className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofoliopanindua.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
             <p className='text-center text-sm py-5'>
             INSTALASI KABEL FO BANK PANIN - 2024
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <img src="/images/portofolioindex.jpeg" alt="" className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofolioindex.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
             <p className='text-center text-sm py-5'>
             INSTALASI KABEL FO BANK INDEX - 2024
             </p>
@@ -202,19 +202,19 @@ export default function AboutUs () {
     </section>
     <section className='flex justify-between py-5 px-10 gap-5'>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <img src="/images/rge.jpeg" alt="" className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/rge.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
             <p className='text-center text-sm py-5'>
             INSTALASI SAMBUNGAN SILANG (LAN) RGE GROUP - 2024  
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <img src="/images/portofoliopanin.jpeg" alt="" className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/portofoliopanin.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
             <p className='text-center text-sm py-5'>
             INSTALASI JARINGAN LOCAL AREA NETWORK PT. PROTONINDO CITRA - 2024
             </p>
         </div>
         <div className='bg-black bg-opacity-5 p-10 flex-1 flex flex-col items-center rounded-lg shadow-md'>
-            <img src="/images/RS.jpeg" alt="" className='h-80 w-60 rounded-lg shadow-lg'/>
+            <Image src="/images/RS.webp" alt="Portofolio" width={240} height={320} className='h-80 w-60 rounded-lg shadow-lg'/>
             <p className='text-center text-sm py-5'>
             INSTALASI PABX RS DUSTIRA ANGKATAN DARAT CIMAHI - 2023
             </p>
@@ -229,34 +229,34 @@ export default function AboutUs () {
 <section id='our clients' className='flex flex-center justify-center px-10 item-center'>
     <section id='logo' className='flex flex-wrap justify-center items-center'>
         <div className='flex-1 flex justify-center items-center'>
-            <img src="/images/logobankiindex.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logobankiindex.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logobankpanin.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logobankpanin.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logobri.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logobri.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logojco.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logojco.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logoprotoindo.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logoprotoindo.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logorge.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logorge.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logoskyland.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logoskyland.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logosriwijayaair.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logosriwijayaair.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logoudistira.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logoudistira.webp" alt="Client Logo" width={300} height={60}/>
         </div>
         <div className='flex-1 flex justify-center items-center cursor-pointer'>
-            <img src="/images/logotelkomakses.png" alt="" width="300px" height="60px"/>
+            <Image src="/images/logotelkomakses.webp" alt="Client Logo" width={300} height={60}/>
         </div>
     </section>
 </section>

@@ -28,13 +28,14 @@ export default function Teams() {
     <div
       key={index}
       className="bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"
-      style={{ backgroundImage: "url('/images/vintage6.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
+      style={{ backgroundImage: "url('/images/vintage6.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
     >
-      <div className="relative w-10 h-10 mx-auto mb-4">
+      <div className="relative w-24 h-24 mx-auto mb-4">
         <img
           src={member.picture.large}
           alt={`Profile of ${member.name.first} ${member.name.last}`}
           className="w-full h-full rounded-full object-cover border-4 border-white shadow-md"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-20 rounded-full"></div>
       </div>

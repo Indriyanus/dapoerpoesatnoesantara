@@ -1,5 +1,6 @@
 import { Carousel } from '@mantine/carousel';
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from "react-icons/md";
+import Image from 'next/image';
 
 const ClientCarousel = () => (
   <Carousel
@@ -10,7 +11,7 @@ const ClientCarousel = () => (
     autoplay={{ delay: 5000 }}
   >
     <Carousel.Slide>
-      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center mt-14" style={{ backgroundImage: "url('/images/mockup.png')" }}>
+      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center mt-14" style={{ backgroundImage: "url('/images/mockup.webp')" }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="px-4 md:px-20">
@@ -25,7 +26,7 @@ const ClientCarousel = () => (
       </div>
     </Carousel.Slide>
     <Carousel.Slide>
-      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center mt-14" style={{ backgroundImage: "url('/images/mockup.png')" }}>
+      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center mt-14" style={{ backgroundImage: "url('/images/mockup.webp')" }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="px-4 md:px-20">
@@ -40,7 +41,7 @@ const ClientCarousel = () => (
       </div>
     </Carousel.Slide>
     <Carousel.Slide>
-      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center mt-14" style={{ backgroundImage: "url('/images/mockup.png')" }}>
+      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center mt-14" style={{ backgroundImage: "url('/images/mockup.webp')" }}>
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="px-4 md:px-20">
