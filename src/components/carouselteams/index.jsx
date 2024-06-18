@@ -28,7 +28,7 @@ const TeamsCarousel = () => {
         <section className='flex py-5 px-5 items-center'>
           <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
             <Image
-              src="/images/direktur.png"
+              src="/images/direktur.webp"
               alt="Indriyanus"
               width={160}
               height={160}
