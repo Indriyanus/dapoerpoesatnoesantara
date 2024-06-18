@@ -1,6 +1,6 @@
 import { AiOutlineUser } from "react-icons/ai";
 import { RiArrowRightSLine } from "react-icons/ri";
-import { FaSquareFacebook, FaYoutube, FaPinterest, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaPinterest, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { AiFillTikTok } from "react-icons/ai";
 import Image from 'next/image';
@@ -70,9 +70,6 @@ export default function Footer() {
           <div className="mt-4">
             <p className="font-bold text-md">FOLLOW US:</p>
             <div className="flex justify-center md:justify-start gap-5 mt-2">
-              {/* <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out" style={{ fontSize: '25px' }}>
-                <FaSquareFacebook />
-              </div>
               <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out" style={{ fontSize: '25px' }}>
                 <FiInstagram />
               </div>
@@ -90,7 +87,10 @@ export default function Footer() {
               </div>
               <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out" style={{ fontSize: '25px' }}>
                 <AiFillTikTok />
-              </div> */}
+              </div>
+              <div className="transform hover:scale-150 transition-transform duration-300 ease-in-out" style={{ fontSize: '22px' }}>
+                <FaFacebookF  />
+              </div>
             </div>
           </div>
         </div>

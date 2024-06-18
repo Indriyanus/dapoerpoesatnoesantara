@@ -9,7 +9,7 @@ const ProductCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       if (emblaRef.current) {
-        emblaRef.current.scrollNext();
+        emblaRef.current.scrollPrev();
       }
     }, 3000);
 

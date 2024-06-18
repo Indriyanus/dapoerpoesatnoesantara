@@ -9,7 +9,7 @@ const TeamsCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       if (emblaRef.current) {
-        emblaRef.current.scrollPrev();
+        emblaRef.current.scrollNext();
       }
     }, 3000);
 
@@ -74,7 +74,156 @@ const TeamsCarousel = () => {
           </div>
         </section>
       </Carousel.Slide>
-      {/* Tambahkan slide lainnya dengan cara yang sama */}
+      <Carousel.Slide>
+        <section className='flex items-center justify-center'>
+          <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
+            <Image
+              src="/images/ridwan.webp"
+              alt="Ridwan Nur Fadil"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full border-2 border-white shadow-lg object-cover"
+            />
+            <p className='text-md font-bold py-5'>
+              Ridwan Nur Fadil
+            </p>
+          </div>
+          <div className='flex-1 py-20 pl-20 px-20 text-left'>
+            <p className='text-2xl font-bold'>Direktur</p>
+            <p className='py-10 text-base text-justify'>
+              Dalam setiap langkah yang kita ambil, mari kita tanamkan semangat untuk menjadi yang terbaik. Bersama, kita bisa menghadapi setiap tantangan dan meraih setiap kesuksesan.
+            </p>
+            <p className='text-base text-justify'>
+              Bandung, 24 April 2014
+            </p>
+          </div>
+        </section>
+      </Carousel.Slide>
+      <Carousel.Slide>
+        <section className='flex items-center justify-center'>
+          <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
+            <Image
+              src="/images/irfan.webp"
+              alt="Irfan Hadi Kuncoro"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full border-2 border-white shadow-lg object-cover"
+            />
+            <p className='text-md font-bold py-5'>
+              Irfan Hadi Kuncoro
+            </p>
+          </div>
+          <div className='flex-1 py-20 pl-20 px-20 text-left'>
+            <p className='text-2xl font-bold'>Business & Strategy Manager</p>
+            <p className='py-10 text-base text-justify'>
+              Dalam setiap langkah yang kita ambil, mari kita tanamkan semangat untuk menjadi yang terbaik. Bersama, kita bisa menghadapi setiap tantangan dan meraih setiap kesuksesan.
+            </p>
+            <p className='text-base text-justify'>
+              Bandung, 24 April 2014
+            </p>
+          </div>
+        </section>
+      </Carousel.Slide>
+      <Carousel.Slide>
+        <section className='flex items-center justify-center'>
+          <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
+            <Image
+              src="/images/safiraharun.webp"
+              alt="Safira Harun"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full border-2 border-white shadow-lg object-cover"
+            />
+            <p className='text-md font-bold py-5'>
+              Safira Harun
+            </p>
+          </div>
+          <div className='flex-1 py-20 pl-20 px-20 text-left'>
+            <p className='text-2xl font-bold'>Finance Manager</p>
+            <p className='py-10 text-base text-justify'>
+              Dalam setiap langkah yang kita ambil, mari kita tanamkan semangat untuk menjadi yang terbaik. Bersama, kita bisa menghadapi setiap tantangan dan meraih setiap kesuksesan.
+            </p>
+            <p className='text-base text-justify'>
+              Bandung, 24 April 2014
+            </p>
+          </div>
+        </section>
+      </Carousel.Slide>
+      <Carousel.Slide>
+        <section className='flex items-center justify-center'>
+          <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
+            <Image
+              src="/images/safiraharun.webp"
+              alt="Safira Harun"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full border-2 border-white shadow-lg object-cover"
+            />
+            <p className='text-md font-bold py-5'>
+              Safira Harun
+            </p>
+          </div>
+          <div className='flex-1 py-20 pl-20 px-20 text-left'>
+            <p className='text-2xl font-bold'>HR Manager</p>
+            <p className='py-10 text-base text-justify'>
+              Dalam setiap langkah yang kita ambil, mari kita tanamkan semangat untuk menjadi yang terbaik. Bersama, kita bisa menghadapi setiap tantangan dan meraih setiap kesuksesan.
+            </p>
+            <p className='text-base text-justify'>
+              Bandung, 24 April 2014
+            </p>
+          </div>
+        </section>
+      </Carousel.Slide>
+      <Carousel.Slide>
+        <section className='flex items-center justify-center'>
+          <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
+            <Image
+              src="/images/nurviki.webp"
+              alt="Nurviki"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full border-2 border-white shadow-lg object-cover"
+            />
+            <p className='text-md font-bold py-5'>
+              Nurviki
+            </p>
+          </div>
+          <div className='flex-1 py-20 pl-20 px-20 text-left'>
+            <p className='text-2xl font-bold'>Operations Manager</p>
+            <p className='py-10 text-base text-justify'>
+              Dalam setiap langkah yang kita ambil, mari kita tanamkan semangat untuk menjadi yang terbaik. Bersama, kita bisa menghadapi setiap tantangan dan meraih setiap kesuksesan.
+            </p>
+            <p className='text-base text-justify'>
+              Bandung, 24 April 2014
+            </p>
+          </div>
+        </section>
+      </Carousel.Slide>
+      <Carousel.Slide>
+        <section className='flex items-center justify-center'>
+          <div className='flex-1 flex-col flex justify-center items-center py-20 px-20'>
+            <Image
+              src="/images/3.webp"
+              alt="Eko Purwanto"
+              width={160}
+              height={160}
+              className="w-40 h-40 rounded-full border-2 border-white shadow-lg object-cover"
+            />
+            <p className='text-md font-bold py-5'>
+              Eko Purwanto
+            </p>
+          </div>
+          <div className='flex-1 py-20 pl-20 px-20 text-left'>
+            <p className='text-2xl font-bold'>IT Manager</p>
+            <p className='py-10 text-base text-justify'>
+              Dalam setiap langkah yang kita ambil, mari kita tanamkan semangat untuk menjadi yang terbaik. Bersama, kita bisa menghadapi setiap tantangan dan meraih setiap kesuksesan.
+            </p>
+            <p className='text-base text-justify'>
+              Bandung, 24 April 2014
+            </p>
+          </div>
+        </section>
+      </Carousel.Slide>
     </Carousel>
   );
 };

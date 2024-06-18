@@ -97,7 +97,7 @@ const Navbar = () => {
         </nav>
       </div>
       <div id='sisiKanan' className="flex flex-1 justify-end items-center gap-4 md:gap-5 mt-4 md:mt-0">
-        <div className="flex flex-col items-center font-bold text-xs transform hover:scale-110 transition-transform duration-300 ease-in-out">
+        <div className="flex flex-col items-center font-bold text-xxs transform hover:scale-110 transition-transform duration-300 ease-in-out">
           <AiOutlineUser className="h-5 w-5" aria-hidden="true"/>
           <a href="./login" className="text-black">{language === 'EN' ? 'LOGIN' : 'MASUK'}</a>
         </div>
