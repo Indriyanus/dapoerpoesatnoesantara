@@ -97,7 +97,7 @@ export default function Footer() {
       </section>
 
       <section id='sisiBawah' className="bg-black bg-opacity-20 flex justify-center items-center text-justify py-5 px-10">
-        <p className="font-bold text-xs text-gray-500">
+        <p className="font-bold text-xs text-black-200">
           Copyright © 2024 - PT. Dapoer Poesat Noesantara Group
         </p>
       </section>

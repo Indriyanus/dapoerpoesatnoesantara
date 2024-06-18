@@ -1,7 +1,6 @@
 'use client';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
-import { GiStairsGoal } from "react-icons/gi";
 import TeamsCarousel from "../../components/carouselteams";
 
 const ClientCarousel = dynamic(() => import('../../components/carousel/index'), { ssr: false });
@@ -11,22 +10,22 @@ export default function Pages() {
     return (
         <>
             <section id="jumbotron2" className="text-justify mt-14">
-                <section className="bg-black bg-opacity-20 shadow-md">
-                    <div id='jumbotron1' className="flex flex-col justify-between items-center py-10 px-5 md:px-10">
-                        <p className="text-4xl font-bold text-black text-center ">
+                <section className=" shadow-md relative w-full h-[400px] sm:h-[500px] md:h-[500px] bg-cover bg-center " style={{ backgroundImage: "url('/images/mockup.webp') " }}>
+                    <div id='jumbotron1' className="flex flex-col justify-between items-center py-10 px-5 md:px-10 bg-white bg-opacity-20 backdrop-blur-md p-8 sm:p-11 shadow-md " >
+                        <p className="text-4xl font-bold text-white text-center ">
                             About Us
                         </p>
                         <br />
-                        <p className="text-md text-black px-5 md:px-10 lg:px-20 py-5">
+                        <p className="text-md font-bold text-white px-5 md:px-10 lg:px-20 py-5">
                             PT. Dapoer Poesat Noesantara Group, sejak berdiri pada tahun 2024, telah menjadi salah satu pemimpin dalam industri telekomunikasi Indonesia. Sebagai perusahaan persero yang didirikan di tengah pesatnya perkembangan teknologi, kami telah mengambil peran penting dalam memajukan infrastruktur telekomunikasi negara ini.
                         </p>
-                        <p className="text-md text-black px-5 md:px-10 lg:px-20 py-5">
+                        <p className="text-md font-bold text-white px-5 md:px-10 lg:px-20 py-5">
                             Dalam era digital yang terus berkembang, PT. Dapoer Poesat Noesantara Group telah menjadi pionir dalam menyediakan solusi jaringan yang inovatif dan andal bagi masyarakat dan bisnis di seluruh Indonesia. Dengan fokus pada keunggulan dan pelayanan pelanggan yang unggul, kami telah membangun reputasi yang kuat sebagai mitra telekomunikasi yang dapat diandalkan.
                         </p>
-                        <p className="text-md text-black px-5 md:px-10 lg:px-20 py-5">
+                        <p className="text-md font-bold text-white px-5 md:px-10 lg:px-20 py-5">
                             Berbekal dengan tim yang berpengalaman dan berdedikasi, kami terus berupaya untuk menghadirkan teknologi terbaru dan layanan yang berkualitas tinggi kepada pelanggan kami. Dengan visi untuk menjadi yang terdepan dalam menyediakan infrastruktur telekomunikasi yang canggih dan terpercaya, kami memperjuangkan kemajuan teknologi di Indonesia.
                         </p>
-                        <p className="text-md text-black px-5 md:px-10 lg:px-20 py-5">
+                        <p className="text-md font-bold text-white px-5 md:px-10 lg:px-20 py-5">
                             PT. Dapoer Poesat Noesantara Group tidak hanya berkomitmen untuk memberikan layanan terbaik kepada pelanggan, tetapi juga untuk berperan aktif dalam pembangunan ekonomi dan sosial negara ini. Dengan prinsip-prinsip integritas, profesionalisme, dan inovasi sebagai pedoman kami, kami siap menghadapi tantangan masa depan dan terus menjadi kekuatan yang mendorong pertumbuhan industri telekomunikasi Indonesia.
                         </p>
                     </div>

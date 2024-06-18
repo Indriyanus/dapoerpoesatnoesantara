@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
           <div className="relative">
             <div
-              className="flex items-center cursor-pointer transform hover:scale-150 transition-transform duration-300 ease-in-out font-bold text-xs md:text-xxs text-black bg-transparent rounded-full py-1 px-3"
+              className="flex items-center cursor-pointer transform hover:scale-150 transition-transform duration-300 ease-in-out font-bold text-xs md:text-xxs text-black rounded-full py-1 px-3"
               onClick={toggleServiceMenu}
               aria-haspopup="menu"
               aria-expanded={isServiceMenuOpen ? 'true' : 'false'}
@@ -76,7 +76,7 @@ const Navbar = () => {
               <MdArrowDropDown className="ml-1" />
             </div>
             {isServiceMenuOpen && (
-              <div className="absolute bg-transparent text-black rounded-lg mt-2 py-2 w-40 md:w-80 shadow-lg" role="menu">
+              <div className="absolute bg-white bg-opacity-40 backdrop-blur-sm text-black rounded-lg mt-4 py-2 w-40 md:w-80 shadow-lg" role="menu">
                 <ul>
                   <li className="px-4 py-2 hover:bg-black-700" role="menuitem">
                     <a href="./dapoertelekomunikasi/">Dapoer Telekomunikasi</a>
